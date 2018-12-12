@@ -11,10 +11,12 @@ In the final step, the user is visually presented, one-by-one, with a candidate 
 # AUTHORS/CONTRIBUTORS:
 Wei Bian, Melanie A. Morrison, Xiaowei Zhu, Sivakami Avadiappan, Yicheng Chen, Seyedmehdi Payabvash, Mihir Shah, Christopher. P. Hess, Janine M. Lupo 
 
-# REVELANT PUBLICATIONS:
-Bian et al. 2013 NeuroImage:Clinical 2:282–290 - describes original detection algorithm 
+# REVELANT PUBLICATIONS: 
+*We request that you cite the following publications when using our software in your research. Thank you!*
 
-Morrison et al. 2018 (submitted work) - outlines updates made to Bian et al. *latest version of algorithm*
+Morrison MA, Payabvash S, Chen Y, Avadiappan S, Shah M, Bian W, Zou X, Hess C, Lupo JM. A user-guided tool for semi-automated cerebral microbleed detection and volume segmentation: evaluating vascular injury and data labelling for machine learning; 2018, NeuroImage: Clinical, 20: 498-505.
+
+Bian W, Hess CP, Chang SM, et al. Computer-aided detection of radiation-induced cerebral microbleeds on susceptibility-weighted MR images. NeuroImage Clin 2013; 2:282–90.
 
 # INPUT: 
 The algorithm accepts a single, non-projected volumetric T2*-weighted or SWI dataset in NIFTI format (.nii). 
