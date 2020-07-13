@@ -45,6 +45,15 @@ h) result_[rootName].txt – a text file containing all cmb counts and cmb volum
 MATLAB Protected Files 
 
 # USAGE: 
+
+
+1) Download cmb_detection_2018_nifti_protected.zip
+2) Download Imagine-Legacy-master.zip (NEW JULY 2020)
+3) Replace the Imagine directory currently in the cmb_detection_2018_nifti_protected directory with Imagine-Legacy-master
+4) Add cmb_detection_2018_nifti_protected and sub folders to your path
+5) cd to the test_subect directory or your equivalent subject directory with your swi.nii file (this will also be the output directory)
+6) run the following:
+
 cmb_detection('input file','path to cmb_threshold parameter file in directory','diagnostics flag','semi-automatic detection flag');
 
 e.g. 
