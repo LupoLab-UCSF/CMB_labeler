@@ -64,6 +64,7 @@ cmb_detection(‘test_swi.nii’, ‘/yourPath/cmb_detection_2018_nifti_protecte
 *When semion, the user-guided classification is enabled.
 
 Note: Please use MATLAB version(s) R2017+ for full functionality (i.e. slice scroll, window zoom) of the user-guided GUI. 
+Update 2021: Please use cmbevaluation2.p recently uploaded instead of the version in the .zip folder IF you wish to run SEMIOFF (i.e. fully automated, though output will have false positives)
 
 # PERFORMANCE: 
 The algorithm was optimized on a 7T SWI dataset acquired from 10 adult brain tumor patients with radiological evidence of CMBs following radiation therapy. The overall sensitivity is 86.7%. Performance measures will vary with user classification outcomes.
